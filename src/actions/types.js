@@ -1,0 +1,14 @@
+export const GET_ERRORS = 'GET_ERRORS';
+export const START_GAME = 'START_GAME';
+export const PAUSE_GAME = 'PAUSE_GAME';
+export const RESTART_GAME = 'RESTART_GAME';
+export const STOP_GAME = 'STOP_GAME';
+export const GAME_FINISHED = 'GAME_FINISHED';
+export const GAME_STARTED = 'GAME_STARTED';
+export const TOSS_COIN = 'TOSS_COIN';
+export const ADD_COMMENTARY = 'ADD_COMMENTARY';
+export const SET_TEAMS = 'SET_TEAMS';
+export const CHANGE_INNING = 'CHANGE_INNING';
+export const FIRST_INNING_SCORE_UPDATE = 'FIRST_INNING_SCORE_UPDATE';
+export const SECOND_INNING_SCORE_UPDATE = 'SECOND_INNING_SCORE_UPDATE';
+export const RESET_GAME = 'RESET_GAME';

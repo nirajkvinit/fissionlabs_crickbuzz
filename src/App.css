@@ -1,0 +1,33 @@
+.bg-overlay div > canvas {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+.fullscreen {
+  /* background: linear-gradient(#000044, #7e2086); */
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.marginAuto {
+  margin: 0 auto;
+}
+
+.recaptcha > div > div > div {
+  margin: 0 auto;
+}
+
+.boldtr {
+  font-weight: bold;
+}
+.commentary {
+  overflow: auto;
+  max-height: 150px;
+}
